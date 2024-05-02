@@ -1,0 +1,27 @@
+.platform-card {
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Adjusted box shadow */
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin-bottom: 50px;
+}
+
+.platform-card-title {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.platform-card-title:hover {
+  color: #666;
+}

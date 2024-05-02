@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.login-page {
+  min-height: 100%; /* Use min-height to ensure it covers the entire content */
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0053b1;
+}
+
+.logo {
+  margin-top: 10%;
+  width: 40%;
+  height: auto;
+}
+
+.form-container {
+  bottom: 0;
+  margin-bottom: calc(100vh); /* 10% margin for the logo */
+}
+

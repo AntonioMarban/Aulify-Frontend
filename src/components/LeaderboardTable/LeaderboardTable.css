@@ -1,0 +1,36 @@
+.tabla-ranking {
+  width: 1200px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.titulo-tabla {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.tabla-leaderboard {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.tabla-leaderboard th,
+.tabla-leaderboard td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tabla-leaderboard th {
+  background-color: #f2f2f2;
+}
+
+.tabla-leaderboard tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

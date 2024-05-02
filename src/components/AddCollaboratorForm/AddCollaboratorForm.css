@@ -1,0 +1,65 @@
+.collaborator-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #0053b1;
+}
+
+.form {
+  width: 400px; /* Adjusted width */
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #1d1934;
+  text-align: center;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+  color: #fff; /* Added text color */
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"],
+.input-group input[type="email"],
+.input-group select { /* Added select styling */
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #0053b1;
+  border-radius: 20px;
+  background-color: #1d1934;
+  color: #fff;
+}
+.input-group input[type="email"] { /* Targeting email input specifically */
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #0053b1;
+  border-radius: 20px;
+  background-color: #1d1934;
+  color: #fff;
+}
+
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container input[type="submit"] { /* Changed to input[type="submit"] */
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #0053b1;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-container input[type="submit"]:hover {
+  background-color: #005d97;
+}
