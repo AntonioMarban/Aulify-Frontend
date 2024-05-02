@@ -25,7 +25,7 @@ function LoginForm() {
 
     const data = await response.json();
     if (data.token) {
-      // Inicia sesión
+      console.log("Sesion iniciada y token: " + data.token)
       localStorage.setItem("token", data.token);
       // Make a request to check the role of the user
       const roleResponse = await fetch(
