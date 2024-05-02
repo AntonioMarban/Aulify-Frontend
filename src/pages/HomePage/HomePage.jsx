@@ -1,10 +1,8 @@
 // HomePage.jsx
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Card from '../../components/Cards/Card/Card';
 import TotalUserCountCard from '../../components/Cards/TotalUserCountCard/TotalUserCountCard';
 import TotalSessionCountCard from '../../components/Cards/TotalSessionCountCard/TotalSessionCountCard';
-import PlatformCard from '../../components/Cards/PlatformCard/PlatformCard';
 import SessionActivityChart from '../../components/Cards/SessionActivityCard/SessionActivityCard';
 import AulifyUserCountCard from '../../components/Cards/AulifyUserCountCard/AulifyUserCountCard';
 import UserAgeDistributionCard from '../../components/Cards/UserAgeDistributionCard/UserAgeDistributionCard';
