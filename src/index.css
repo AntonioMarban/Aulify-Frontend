@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "CrosstenExtralight";
-  src: url(".\assets\crossten_extralight.ttf") format("truetype");
-}
+
 
 body {
   font-family: "CrosstenExtralight", sans-serif; /* Use CrosstenExtralight font for all text */
