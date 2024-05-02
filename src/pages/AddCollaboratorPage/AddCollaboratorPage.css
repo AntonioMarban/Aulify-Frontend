@@ -5,7 +5,7 @@ body {
 }
 
 .add-collaborator-page-container {
-  min-height: 100%; /* Use min-height to ensure it covers the entire content */
+  min-height: 100vh; /* Use min-height to ensure it covers the entire viewport height */
   min-width: 100%;
   display: flex;
   flex-direction: column;
@@ -15,13 +15,8 @@ body {
 }
 
 .add-collaborator-page-logo {
-  margin-top: 10%;
+  margin-top: 21vh; /* Use viewport height for vertical margin */
   width: 40%;
   height: auto;
-}
-
-.add-collaborator-page-form-container {
-  bottom: 0;
-  margin-bottom: calc(100vh); /* 10% margin for the logo */
 }
 
