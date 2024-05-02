@@ -6,7 +6,7 @@ const AulifyUserCountCard = () => {
   const [userData, setUserData] = useState({});
 
   useEffect(() => {
-    fetch("http://localhost:3000/user/aulify-user-count")
+    fetch(import.meta.env.VITE_API + "/user/aulify-user-count")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch user data");
