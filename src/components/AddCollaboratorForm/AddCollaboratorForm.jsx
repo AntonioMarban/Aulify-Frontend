@@ -28,7 +28,7 @@ function AddCollaboratorForm() {
       role: role
     };
     try {
-      const response = await fetch('http://localhost:3000/admin', {
+      const response = await fetch(import.meta.env.VITE_API + '/admin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
