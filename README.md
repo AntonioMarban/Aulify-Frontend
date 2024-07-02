@@ -1,8 +1,9 @@
-# React + Vite
+# Aulify Dashboard Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains all of the front end integration for the correspondent Aulify web dashboard.
 
-Currently, two official plugins are available:
+The objective of this project was to build a functional application that allowed collaborators to collect, observe and analyze different data, metrics and statistics that worked as KPIs of the success of the educational videogame.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application was built using React + Vite; coded in JavaScript, HTML and CSS; and supported by different React libraries such as Recharts for data visualization and React Router DOM for virtual routing and navigation.
+
+Also check: https://github.com/AntonioMarban/Aulify-Backend
